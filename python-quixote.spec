@@ -51,7 +51,7 @@ Je¶li kto¶ patrzy na serwis WWW jak na program, a na strony jak na
 procedury, Quixote mo¿e byæ narzêdziem dla niego. Je¶li patrzy na
 serwis jako na gablotê, a ka¿d± stronê jako oddzielny obraz, Quixote
 prawdopodobnie nie jest tym, czego szuka.
-  
+
 %prep
 %setup -q
 
