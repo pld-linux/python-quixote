@@ -1,6 +1,6 @@
 Summary:	Framework for developing Web applications in Python
 Summary(pl):	Szkielet do tworzenia aplikacji WWW w Pythonie
-Name:		Quixote
+Name:		python-quixote
 Version:	0.7a3
 Release:	0.1
 License:	CNRI
@@ -11,6 +11,7 @@ URL:		http://www.mems-exchange.org/software/quixote/
 BuildRequires:	python-modules
 BuildRequires:	python-devel
 %pyrequires_eq	python-modules
+Obsoletes:	Quixote
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
