@@ -56,7 +56,7 @@ prawdopodobnie nie jest tym, czego szuka.
 %package doc
 Summary:	Documentation for quixote Python module
 Summary(pl):	Dokumentacja do modu³u Pythona quixote
-Group:		Libraries/Python
+Group:		Development/Languages/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description doc
