@@ -2,7 +2,7 @@ Summary:	Framework for developing Web applications in Python
 Summary(pl):	Szkielet do tworzenia aplikacji WWW w Pythonie
 Name:		python-quixote
 Version:	1.1
-Release:	1
+Release:	2
 Epoch:		1
 License:	CNRI
 Group:		Development/Languages/Python
