@@ -5,7 +5,7 @@ Version:	0.7a3
 Release:	0.1
 License:	CNRI
 Group:		Development/Languages/Python
-Source0:	http://www.mems-exchange.org/software/files/quixote/%{name}-%{version}.tar.gz
+Source0:	http://www.mems-exchange.org/software/files/quixote/Quixote-%{version}.tar.gz
 # Source0-md5:	448c83a2b221db7540309b1536c108cd
 URL:		http://www.mems-exchange.org/software/quixote/
 BuildRequires:	python-modules
@@ -54,7 +54,7 @@ serwis jako na gablotê, a ka¿d± stronê jako oddzielny obraz, Quixote
 prawdopodobnie nie jest tym, czego szuka.
 
 %prep
-%setup -q
+%setup -q -n Quixote-%{version}
 
 %build
 python setup.py build
