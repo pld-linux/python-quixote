@@ -58,7 +58,7 @@ prawdopodobnie nie jest tym, czego szuka.
 Summary:	Documentation for quixote Python module
 Summary(pl):	Dokumentacja do modu³u Pythona quixote
 Group:		Development/Languages/Python
-Requires:	%{name} = %{version}-%{release}
+Requires:	%{name} = %{epoch}:%{version}-%{release}
 
 %description doc
 This module contains documentation files for quixote Python module.
