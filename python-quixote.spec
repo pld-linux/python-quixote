@@ -9,6 +9,7 @@ Source0:	http://www.mems-exchange.org/software/files/quixote/%{name}-%{version}.
 # Source0-md5:	448c83a2b221db7540309b1536c108cd
 URL:		http://www.mems-exchange.org/software/quixote/
 BuildRequires:	python-modules
+BuildRequires:	python-devel
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
