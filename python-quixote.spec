@@ -1,13 +1,13 @@
 Summary:	Framework for developing Web applications in Python
 Summary(pl):	Szkielet do tworzenia aplikacji WWW w Pythonie
 Name:		python-quixote
-Version:	2.0
+Version:	2.4
 Release:	1
 Epoch:		1
 License:	CNRI
 Group:		Development/Languages/Python
 Source0:	http://www.mems-exchange.org/software/files/quixote/Quixote-%{version}.tar.gz
-# Source0-md5:	2c22a99db4ebe1e876a51d800e417f6f
+# Source0-md5:	5dc36613faba7dee6c8c6d24c1334303
 URL:		http://www.mems-exchange.org/software/quixote/
 BuildRequires:	python-modules
 BuildRequires:	python-devel
