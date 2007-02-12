@@ -1,5 +1,5 @@
 Summary:	Framework for developing Web applications in Python
-Summary(pl):	Szkielet do tworzenia aplikacji WWW w Pythonie
+Summary(pl.UTF-8):   Szkielet do tworzenia aplikacji WWW w Pythonie
 Name:		python-quixote
 Version:	2.4
 Release:	2
@@ -33,35 +33,35 @@ Quixote just might be the tool for you. If you view a web site as a
 graphic design showcase, and each web page as an individual work of art,
 Quixote is probably not what you're looking for.
 
-%description -l pl
+%description -l pl.UTF-8
 Quixote to kolejny szkielet do tworzenia aplikacji WWW w Pythonie.
-Projekt mia³ na celu:
-- pozwoliæ na ³atwe tworzenie aplikacji WWW tam, gdzie jest wiêkszy
-  nacisk na skomplikowan± logikê programu ni¿ skomplikowane szablony
-- uczyniæ jêzyk szablonów podobnym do Pythona na ile to tylko mo¿liwe,
-  zarówno pod wzglêdem sk³adni jak i semantyki; celem jest
-  umo¿liwienie korzystania z jak najwiêkszej czê¶ci bieg³o¶ci i
-  technik strukturalnych u¿ywanych przy pisaniu normalnego kodu w
-  Pythonie w aplikacjach WWW budowanych przy u¿yciu Quixote
-- brak magii; je¶li nie jest oczywiste, co zrobiæ w danym przypadku,
-  Quixote nie bêdzie zgadywa³.
+Projekt miaÅ‚ na celu:
+- pozwoliÄ‡ na Å‚atwe tworzenie aplikacji WWW tam, gdzie jest wiÄ™kszy
+  nacisk na skomplikowanÄ… logikÄ™ programu niÅ¼ skomplikowane szablony
+- uczyniÄ‡ jÄ™zyk szablonÃ³w podobnym do Pythona na ile to tylko moÅ¼liwe,
+  zarÃ³wno pod wzglÄ™dem skÅ‚adni jak i semantyki; celem jest
+  umoÅ¼liwienie korzystania z jak najwiÄ™kszej czÄ™Å›ci biegÅ‚oÅ›ci i
+  technik strukturalnych uÅ¼ywanych przy pisaniu normalnego kodu w
+  Pythonie w aplikacjach WWW budowanych przy uÅ¼yciu Quixote
+- brak magii; jeÅ›li nie jest oczywiste, co zrobiÄ‡ w danym przypadku,
+  Quixote nie bÄ™dzie zgadywaÅ‚.
 
-Je¶li kto¶ patrzy na serwis WWW jak na program, a na strony jak na
-procedury, Quixote mo¿e byæ narzêdziem dla niego. Je¶li patrzy na
-serwis jako na gablotê, a ka¿d± stronê jako oddzielny obraz, Quixote
+JeÅ›li ktoÅ› patrzy na serwis WWW jak na program, a na strony jak na
+procedury, Quixote moÅ¼e byÄ‡ narzÄ™dziem dla niego. JeÅ›li patrzy na
+serwis jako na gablotÄ™, a kaÅ¼dÄ… stronÄ™ jako oddzielny obraz, Quixote
 prawdopodobnie nie jest tym, czego szuka.
 
 %package doc
 Summary:	Documentation for quixote Python module
-Summary(pl):	Dokumentacja do modu³u Pythona quixote
+Summary(pl.UTF-8):   Dokumentacja do moduÅ‚u Pythona quixote
 Group:		Development/Languages/Python
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 
 %description doc
 This module contains documentation files for quixote Python module.
 
-%description doc -l pl
-Modu³ zawieraj±cy dokumentacjê dla modu³u Pythona quixote.
+%description doc -l pl.UTF-8
+ModuÅ‚ zawierajÄ…cy dokumentacjÄ™ dla moduÅ‚u Pythona quixote.
 
 %prep
 %setup -q -n Quixote-%{version}
