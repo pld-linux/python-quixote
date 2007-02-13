@@ -1,5 +1,5 @@
 Summary:	Framework for developing Web applications in Python
-Summary(pl.UTF-8):   Szkielet do tworzenia aplikacji WWW w Pythonie
+Summary(pl.UTF-8):	Szkielet do tworzenia aplikacji WWW w Pythonie
 Name:		python-quixote
 Version:	2.4
 Release:	2
@@ -53,7 +53,7 @@ prawdopodobnie nie jest tym, czego szuka.
 
 %package doc
 Summary:	Documentation for quixote Python module
-Summary(pl.UTF-8):   Dokumentacja do modułu Pythona quixote
+Summary(pl.UTF-8):	Dokumentacja do modułu Pythona quixote
 Group:		Development/Languages/Python
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 
