@@ -1,13 +1,13 @@
 Summary:	Framework for developing Web applications in Python
 Summary(pl.UTF-8):	Szkielet do tworzenia aplikacji WWW w Pythonie
 Name:		python-quixote
-Version:	2.4
-Release:	2
+Version:	2.5
+Release:	1
 Epoch:		1
-License:	CNRI
+License:	MIT
 Group:		Development/Languages/Python
-Source0:	http://www.mems-exchange.org/software/files/quixote/Quixote-%{version}.tar.gz
-# Source0-md5:	5dc36613faba7dee6c8c6d24c1334303
+Source0:	http://quixote.ca/releases/Quixote-%{version}.tar.gz
+# Source0-md5:	a5605270c2b53964d2e90c861822e8ca
 URL:		http://www.mems-exchange.org/software/quixote/
 BuildRequires:	python-modules
 BuildRequires:	python-devel
@@ -83,7 +83,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ACKS CHANGES LICENSE README TODO
+%doc ACKS.txt CHANGES.txt LICENSE.txt README.txt TODO
 %dir %{py_sitedir}/quixote
 %dir %{py_sitedir}/quixote/demo
 %dir %{py_sitedir}/quixote/form
@@ -96,6 +96,7 @@ rm -rf $RPM_BUILD_ROOT
 %{py_sitedir}/quixote/*.py[co]
 %{py_sitedir}/quixote/*/*.py[co]
 %{py_sitedir}/quixote/demo/*.ptl
+%{py_sitedir}/*.egg*
 
 %files doc
 %defattr(644,root,root,755)
