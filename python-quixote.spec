@@ -9,8 +9,9 @@ Group:		Development/Languages/Python
 Source0:	http://quixote.ca/releases/Quixote-%{version}.tar.gz
 # Source0-md5:	a5605270c2b53964d2e90c861822e8ca
 URL:		http://www.mems-exchange.org/software/quixote/
+BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	python-modules
-BuildRequires:	python-devel
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
 Obsoletes:	Quixote
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -86,17 +87,20 @@ rm -rf $RPM_BUILD_ROOT
 %doc ACKS.txt CHANGES.txt LICENSE.txt README.txt TODO
 %dir %{py_sitedir}/quixote
 %dir %{py_sitedir}/quixote/demo
-%dir %{py_sitedir}/quixote/form
-%dir %{py_sitedir}/quixote/html
-%dir %{py_sitedir}/quixote/ptl
-%dir %{py_sitedir}/quixote/server
-
-%attr(755,root,root) %{py_sitedir}/quixote/*/*.so
-
-%{py_sitedir}/quixote/*.py[co]
-%{py_sitedir}/quixote/*/*.py[co]
+%{py_sitedir}/quixote/demo/*.py[co]
 %{py_sitedir}/quixote/demo/*.ptl
-%{py_sitedir}/*.egg*
+%dir %{py_sitedir}/quixote/form
+%{py_sitedir}/quixote/form/*.py[co]
+%dir %{py_sitedir}/quixote/html
+%{py_sitedir}/quixote/html/*.py[co]
+%attr(755,root,root) %{py_sitedir}/quixote/html/*.so
+%dir %{py_sitedir}/quixote/ptl
+%{py_sitedir}/quixote/ptl/*.py[co]
+%attr(755,root,root) %{py_sitedir}/quixote/ptl/*.so
+%dir %{py_sitedir}/quixote/server
+%{py_sitedir}/quixote/server/*.py[co]
+%{py_sitedir}/quixote/*.py[co]
+%{py_sitedir}/Quixote-*.egg-info
 
 %files doc
 %defattr(644,root,root,755)
