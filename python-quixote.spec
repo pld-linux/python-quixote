@@ -2,7 +2,7 @@ Summary:	Framework for developing Web applications in Python
 Summary(pl.UTF-8):	Szkielet do tworzenia aplikacji WWW w Pythonie
 Name:		python-quixote
 Version:	2.6
-Release:	3
+Release:	4
 Epoch:		1
 License:	MIT
 Group:		Development/Languages/Python
