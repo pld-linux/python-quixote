@@ -9,6 +9,7 @@ Group:		Development/Languages/Python
 Source0:	http://quixote.ca/releases/Quixote-%{version}.tar.gz
 # Source0-md5:	e9c727ab337a66776d960b3da84fce9d
 URL:		http://www.mems-exchange.org/software/quixote/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	pydoc
 BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	python-modules
